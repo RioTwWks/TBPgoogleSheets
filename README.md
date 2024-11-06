@@ -6,7 +6,7 @@
 
 ### Creating a new Telegram Bot
 
-Use the `/newbot` command to create a new bot. [@BotFather](https://t.me/botfather) will ask you for a name and username, then generate an authentication token for your new bot.
+🤖 Use the `/newbot` command to create a new bot. [@BotFather](https://t.me/botfather) will ask you for a name and username, then generate an authentication token for your new bot.
 
 * **The name** of your bot is displayed in contact details and elsewhere.
 * **The username** is a short name, used in search, mentions and t.me links. Usernames are 5-32 characters long and not case sensitive – but may only include Latin characters, numbers, and underscores. Your bot's username must end in 'bot’, like 'tetris_bot' or 'TetrisBot'.
@@ -27,7 +27,7 @@ When sending a request to api.telegram.org, remember to prefix the word ‘bot�
 8. Press on ⋮ near recently created service account and select “Manage keys” and then click on “ADD KEY > Create new key”.
 9. Select JSON key type and press “Create”.
 
-You will automatically download a JSON file with credentials. It may look like this:
+🔑You will automatically download a JSON file with credentials. It may look like this:
 
 ```json
 {
@@ -43,13 +43,13 @@ You will automatically download a JSON file with credentials. It may look like t
 
 ## Install
 
-To install the necessary dependencies, run the following commands:
+🛠️To install the necessary dependencies, run the following commands:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-requirements.txt it contains the following dependencies:
+⚙️requirements.txt it contains the following dependencies:
 
 ```
 aiogram==3.13.1
@@ -62,7 +62,7 @@ python-decouple==3.8
 python-dotenv==1.0.1
 ```
 
-Create a file .env in the root of the project and add the following variables to it:
+🔡Create a file .env in the root of the project and add the following variables to it:
 
 ```
 BOT_TOKEN=
@@ -80,13 +80,13 @@ UNIVERSE_DOMAIN=
 ```
 
 ## Launching the bot:
-
+🚀
 ```bash
 python bot.py
 ```
 
 ## Project structure:
-
+📋
 ```
 project/
 │
