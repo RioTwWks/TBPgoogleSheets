@@ -4,8 +4,8 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message, ReplyKeyboardRemove
 
-from keyboards.start_kb import get_start_kb
-from keyboards.kb_again import get_again_kb
+from keyboards.kbs import get_start_kb
+from keyboards.kbs import get_again_kb
 
 router = Router()
 

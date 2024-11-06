@@ -3,9 +3,9 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.types import Message
 
-from keyboards.close_kb import get_close_kb
-from keyboards.kb_again import get_again_kb
-from keyboards.check_kb import get_check_kb
+from keyboards.kbs import get_close_kb
+from keyboards.kbs import get_again_kb
+from keyboards.kbs import get_check_kb
 
 from googlesheets import db_users
 import csv
