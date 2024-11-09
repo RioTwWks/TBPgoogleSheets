@@ -22,6 +22,14 @@ pipeline {
         sh 'docker push riotwwks/test-cicd:latest'
       }
     }
+    stage('Trigger CD Pipeline') {
+      steps {
+        script {
+          echo 'Triggering CD pipeline...'
+          build job: 'cd-pipeline-job', wait: false  // Триггер для CD pipeline
+        }
+      }
+    }
   }
   post {
     always {
